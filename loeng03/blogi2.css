@@ -1,0 +1,27 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(49, 173, 132);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.konteiner{
+    background-color: beige;
+   
+}
+.uudistevoog{
+    display:flex;
+}
+
+.uudis-pealkiri{
+    font-size: 30px;
+}
+
+.uudis-kuupaev{
+    font-size: 0,7rem;
+    color:rgb(10, 73, 52);
+    font-weight: bold;
+
+}

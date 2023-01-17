@@ -1,0 +1,33 @@
+html {
+    font-size: 15px;
+}
+
+.pealkiri {
+    display: flex;
+    justify-content: center;
+}
+
+.konteiner {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 210, 210);
+    width: 770px;
+    margin: auto;
+}
+
+.kast {
+    width: 400px;
+    height: 400px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+.sisu {
+    text-align: center;
+    font-size: 25px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
