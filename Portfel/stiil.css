@@ -19,8 +19,9 @@ html {
     width: 400px;
     height: 400px;
     border-width: 1px;
-    border-color: black;
+    border-color: rgb(141, 141, 141);
     border-style: solid;
+
 
 }
 
