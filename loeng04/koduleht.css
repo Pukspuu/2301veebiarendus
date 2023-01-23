@@ -63,6 +63,18 @@ nav ul li a {
 
 nav ul li a:hover{
     color: rgb(159, 159, 159);
+
+    
+}
+
+article h3{
+    text-align: center;
+}
+
+article p{
+    text-align: center;
+    line-height: 2rem;
+    width: 800px;
 }
 
 .sisu {
