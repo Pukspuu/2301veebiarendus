@@ -1,5 +1,3 @@
-.konteiner{
-    background-color: rgb(118, 77, 77);
-    width: 100%;
-    height: auto;
+.jumbotron{
+    background-image: url(./pildid/logo2.png);
 }
