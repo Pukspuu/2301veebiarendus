@@ -1,0 +1,7 @@
+.jumbotron{
+    background-color: rgb(143, 142, 142);
+    color: aliceblue;
+    background-image: url(./taust.jpg);
+    background-size: cover;
+    background-position: center;
+}
