@@ -89,6 +89,7 @@ html{
 
 .rida2{
     display: flex;
+    margin-top: 20px;
 }
 
 .liblikas{
@@ -96,4 +97,9 @@ html{
     height: 66.04px;
     margin-top: -40px;
     margin-left: 100px;
+}
+.pealkiri-kastid{
+    text-transform: uppercase;
+    font-size: 2,83rem;
+    font-weight: 800;
 }
