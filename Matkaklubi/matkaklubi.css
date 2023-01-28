@@ -80,8 +80,20 @@ html{
 .pais-menyy ul li a {
     color: black;
     text-decoration: none;
-} 
+}
 
-.pealkiri row{
+.rida{
+    display: flex;
+    margin-top: 200px;
+}
 
+.rida2{
+    display: flex;
+}
+
+.liblikas{
+    width: 75.27px;
+    height: 66.04px;
+    margin-top: -40px;
+    margin-left: 100px;
 }
