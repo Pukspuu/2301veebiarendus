@@ -96,6 +96,7 @@ html{
 .rida2{
     display: flex;
     margin-top: 20px;
+    width: 600px;
 }
 
 .rida2 h1{
@@ -118,7 +119,7 @@ html{
 .tekst-vasakul{
     text-transform: uppercase;
     margin: 20px;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .button{
@@ -128,7 +129,7 @@ html{
 .block{
     height:70px;
     width: 230px;
-    margin: 60px;
+    margin: 80px;
     margin-top: 10px;
     text-align: center;
     background-color: #0b0b0b;
