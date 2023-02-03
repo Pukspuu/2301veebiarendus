@@ -10,6 +10,7 @@ html{
     background-image: url(./assets/Hills.png);
     background-position: center;
     background-size: cover;
+    overflow: hidden;
    
     }
 
@@ -18,7 +19,7 @@ html{
     height: 754px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 400px;
+    margin-right: -400px;
 }
 
 .pealkiri-pildid-vari img{
@@ -163,4 +164,3 @@ html{
     text-decoration: none;
     line-height: 70px;
 }
-
