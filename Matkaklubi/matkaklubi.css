@@ -11,8 +11,6 @@ html{
     background-position: center;
     background-size: cover;
     overflow:inherit;
-   
-   
     }
 
 .pealkiri-pildid img{
@@ -164,4 +162,36 @@ html{
     font-size: 120%; 
     text-decoration: none;
     line-height: 70px;
+}
+
+
+.box1 input{
+    width: 1050px;
+}
+
+.box2 label{
+    padding-top: 10px;
+}
+
+.box2 input{
+    width: 1050px;
+}
+
+.box3 label{
+    padding-top: 10px;
+}
+
+.box3 input{
+    height: 100px;
+    width: 1050px;
+    text-align: top;
+}
+
+.saada{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.saada{
+    border: none;
 }
