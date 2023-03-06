@@ -7,7 +7,16 @@ app.use(express.json());
 let uusID= 0;
 let todoItems = [];
 
+app.post('/', function(req, res){
+
+});
+
+app.delete('/', function(req, res){
+
+});
+
 app.put('./', function(req, res){
+   console.log('olen siin');
 todoItems.push({
       id: uusId++,
       ischecked: false,
