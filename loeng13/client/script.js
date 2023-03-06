@@ -49,7 +49,7 @@ async function addTodo() {
   }
 
   const response = await fetch('http://localhost:8081', {
-    method: 'PUT',
+    method: 'POST',
     headers: {
       "Content-Type": "application/json",
     },

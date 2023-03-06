@@ -4,24 +4,24 @@ var app = express();
 app.use(cors());
 app.use(express.json());
 
-let uusID= 0;
+let uusId= 0;
 let todoItems = [];
 
-app.post('/', function(req, res){
+app.put('/', function(req, res){
 
 });
 
 app.delete('/', function(req, res){
-
+   
 });
 
-app.put('./', function(req, res){
+app.post('/', function(req, res){
    console.log('olen siin');
 todoItems.push({
       id: uusId++,
-      ischecked: false,
+      isChecked: false,
       text: req.body.text
-   });
+      });
    res.send(JSON.stringify(todoItems));
 });
 
