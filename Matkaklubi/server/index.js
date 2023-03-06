@@ -5,19 +5,19 @@ const port = 8080;
 
 const matkadeAndmed = {
 kogus: 3,
-labiviija: 'Kaarel',
+labiviija: 'Meistermatkaja',
 matkad: [
     {
         pealkiri: 'Ümber Ülemiste järve',
         kestvus: '1h',
-        pikkus: '1 km',
+        pikkus: '1km',
         kirjeldus: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam provident dolorem laboriosam officiis repellat distinctio. Quos voluptate ea corporis praesentium iusto atque excepturi, repellendus molestias, quibusdam dolor mollitia. Recusandae'
 
  },
  {
     pealkiri: 'Läbi soode ja metsade',
     kestvus: '12h',
-    pikkus: '5 km',
+    pikkus: '5km',
     kirjeldus: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam provident dolorem laboriosam officiis repellat distinctio. Quos voluptate ea corporis praesentium iusto atque excepturi, repellendus molestias, quibusdam dolor mollitia. Recusandae'
   
  },
@@ -25,7 +25,7 @@ matkad: [
  {
     pealkiri: 'Otse ja omadega',
     kestvus: '5h',
-    pikkus: '3 km',
+    pikkus: '3km',
     kirjeldus: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam provident dolorem laboriosam officiis repellat distinctio. Quos voluptate ea corporis praesentium iusto atque excepturi, repellendus molestias, quibusdam dolor mollitia. Recusandae'
   
  }

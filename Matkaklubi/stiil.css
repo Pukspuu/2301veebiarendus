@@ -1,0 +1,23 @@
+.matk{
+    color: rgb(93, 96, 95);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.katse{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.katse h1{
+    text-align: center;
+    color: rgb(85, 85, 85);
+}
+
+
+.matk span{
+    color: brown;
+}
+
+
+
