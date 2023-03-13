@@ -34,9 +34,9 @@ function renderTodos() {
 }
 
 async function loadTodos() {
-  const response = await fetch('http://localhost:8081');
+  const response = await fetch('https://expressjs-postgres-production-0788.up.railway.app/');
   const todos = await response.json();
-  todoItems = todos;
+  todoItems = todos; 
   renderTodos();
 }
 
@@ -62,22 +62,30 @@ async function addTodo() {
   todoInputHtml.value = '';
 }
 
-function toggleTodo(todoId) {
-  for (let i = 0; i < todoItems.length; i++) {
-    if (todoItems[i].id == todoId) {
-      todoItems[i].isChecked = !todoItems[i].isChecked;
-      break;
-    }
-  }
+async function toggleTodo(todoIdToToggle) {
+  const response = await fetch('http://localhost:8081', {
+    method: 'PUT',
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ todoId: todoIdToToggle })
+  });
+  const todos = await response.json();
+  todoItems = todos;
+
   renderTodos();
 }
 
-function deleteTodo(todoId) {
-  for (let i = 0; i < todoItems.length; i++) {
-    if (todoItems[i].id == todoId) {
-      todoItems.splice(i, 1);
-      break;
-    }
-  }
+async function deleteTodo(todoId) {
+  const response = await fetch('http://localhost:8081', {
+    method: 'DELETE',
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ todoId: todoId })
+  });
+  const todos = await response.json();
+  todoItems = todos;
+
   renderTodos();
 }
