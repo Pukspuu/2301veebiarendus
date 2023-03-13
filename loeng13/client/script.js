@@ -41,7 +41,7 @@ async function loadTodos() {
 }
 
 loadTodos();
-//dd
+
 async function addTodo() {
   if (todoInputHtml.value == '') {
     console.log('input on tühi!');
